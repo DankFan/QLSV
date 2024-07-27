@@ -32,17 +32,18 @@
             android:layout_marginTop="40dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="THÊM NGÀNH" />
+            android:text="THÊM KHỐI" />
+
         <EditText
             android:id="@+id/edtMaLop"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:scrollHorizontally="true"
-            android:padding="10dp"
             android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:hint="Nhập mã khối"
             android:inputType="textPersonName"
-            android:hint="Nhập mã ngành" />
+            android:padding="10dp"
+            android:scrollHorizontally="true" />
 
         <EditText
             android:id="@+id/edtTenLop"
@@ -52,7 +53,7 @@
             android:scrollHorizontally="true"
             android:padding="10dp"
             android:inputType="textPersonName"
-            android:hint="Nhập tên ngành" />
+            android:hint="Nhập tên khối" />
 
         <LinearLayout
             android:layout_marginTop="20dp"

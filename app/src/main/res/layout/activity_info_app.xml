@@ -76,7 +76,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:layout_toRightOf="@id/imageView2"
-                android:text="- Một ứng dụng nhỏ để quản lý sinh viên, do nhóm chúng em tạo nên, nguồn tham khảo rất nhiều nên em cũng không biết ghi như thế nào nữa ^^!, đây chỉ là một ứng dụng nhỏ làm trong thời gian ngắn nên mong thầy và các bạn cùng đánh giá và nhận xét!"
+                android:text="- Một ứng dụng nhỏ để quản lý học sinh, do nhóm chúng em tạo nên, nguồn tham khảo rất nhiều nên em cũng không biết ghi như thế nào, đây chỉ là một ứng dụng nhỏ làm trong thời gian rất ngắn nên mong thầy và các bạn cùng đánh giá và nhận xét!"
 
                 android:textSize="20dp" />
 

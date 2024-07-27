@@ -160,7 +160,7 @@ android:layout_marginTop="30dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:text="Quản Lý Sinh Viên"
+                        android:text="Quản Lý Học Sinh"
                         android:shadowColor="#0C0C0C"
                         android:shadowDx="2"
                         android:shadowDy="1"
@@ -171,10 +171,11 @@ android:layout_marginTop="30dp"
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
+
             <androidx.cardview.widget.CardView
                 android:id="@+id/quanlinganh"
-                android:layout_width="100dp"
-                android:layout_height="wrap_content"
+                android:layout_width="106dp"
+                android:layout_height="135dp"
                 android:layout_margin="10dp"
                 app:cardCornerRadius="10dp"
                 app:cardElevation="7dp">
@@ -197,17 +198,17 @@ android:layout_marginTop="30dp"
                         />
 
                     <TextView
-                        android:textAlignment="center"
                         android:id="@+id/tvNganh"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:text="Quản Lý  Ngành"
+                        android:layout_marginTop="5dp"
                         android:shadowColor="#0C0C0C"
                         android:shadowDx="2"
                         android:shadowDy="1"
                         android:shadowRadius="1"
-                        android:layout_marginTop="5dp"
+                        android:text="Quản Lý Khối"
+                        android:textAlignment="center"
                         android:textSize="14sp"
                         android:textStyle="bold" />
                 </LinearLayout>
@@ -347,8 +348,8 @@ android:layout_marginTop="30dp"
                 app:cardElevation="7dp">
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="100dp"
+                    android:layout_height="117dp"
                     android:layout_margin="2dp"
                     android:orientation="vertical"
                     android:padding="5dp">
@@ -367,13 +368,13 @@ android:layout_marginTop="30dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:text="Information"
+                        android:layout_marginTop="5dp"
                         android:shadowColor="#0C0C0C"
                         android:shadowDx="2"
                         android:shadowDy="1"
                         android:shadowRadius="1"
+                        android:text="Thông Tin Ứng Dụng"
                         android:textSize="15sp"
-                        android:layout_marginTop="5dp"
                         android:textStyle="bold" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>

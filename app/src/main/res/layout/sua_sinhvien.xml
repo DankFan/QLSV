@@ -12,11 +12,12 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="#FFFFFF"
         android:gravity="center_horizontal"
-        android:text="SỬA SINH VIÊN"
+        android:text="SỬA HỌC SINH"
+        android:textColor="#FFFF"
         android:textSize="25sp"
         android:textStyle="bold" />
+
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
@@ -53,7 +54,7 @@
         android:textColorHint="#2196F3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Nhập mã sinh viên" />
+        android:hint="Nhập mã học sinh" />
 
     <EditText
         android:id="@+id/edTenSvedit"
@@ -64,7 +65,7 @@
         android:textColorHint="#2196F3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Nhập tên sinh viên" />
+        android:hint="Nhập tên học sinh" />
 
     <EditText
         android:id="@+id/edemail"

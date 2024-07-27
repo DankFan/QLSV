@@ -30,7 +30,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:gravity="center_horizontal"
-            android:text="THÊM SINH VIÊN"
+            android:text="THÊM HỌC SINH"
             android:textColor="#000000"
             android:textSize="30dp"
             android:textStyle="bold" />
@@ -64,14 +64,14 @@
             android:layout_marginTop="10dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:hint="Nhập mã sinh viên" />
+            android:hint="Nhập mã học sinh" />
 
         <EditText
             android:id="@+id/txtTenSV"
             android:inputType="textVisiblePassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Nhập tên sinh viên" />
+            android:hint="Nhập tên học sinh" />
 
         <EditText
             android:id="@+id/txtemail"

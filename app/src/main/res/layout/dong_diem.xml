@@ -13,7 +13,7 @@
         android:textSize="20sp"
         android:textStyle="bold"
         android:textColor="#000"
-        android:text="Lập trình OOP"
+        android:text="Toán Cao Cấp"
         android:layout_weight="5"/>
     <TextView
         android:id="@+id/tvDiem"

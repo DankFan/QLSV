@@ -15,7 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
-        android:text="Ứng dụng QUẢN LÝ SINH VIÊN"
+        android:text="Ứng dụng QUẢN LÝ HỌC SINH"
  android:textAllCaps="true"
         android:textColor="#FFFFFF"
         android:textSize="20dp"
